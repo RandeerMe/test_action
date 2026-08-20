@@ -1,0 +1,14 @@
+name: Setup Environment
+description: Set up the company environment
+
+inputs:
+  environment:
+    description: Environment name V2
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Run setup
+      shell: bash
+      run: ./script.sh "${{ inputs.environment }}"

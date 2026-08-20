@@ -1,4 +1,4 @@
-name: Setup Environment
+name: SetupRandeerEnvironment
 description: Set up the company environment
 
 inputs:
